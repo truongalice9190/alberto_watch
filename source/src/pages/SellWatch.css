@@ -1,0 +1,110 @@
+/* SellWatch.css */
+
+/* Global styles for the Sell Watch page */
+.sell-watch-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.sell-watch-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  border-bottom: 2px solid #CBB26A
+  ;
+  padding-bottom: 10px;
+}
+
+.sell-watch-container form {
+  margin-bottom: 20px;
+}
+
+.sell-watch-container form div {
+  margin-bottom: 15px;
+}
+.sell{
+  font-size: 500%;
+}
+.sell-watch-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.sell-watch-container input,
+.sell-watch-container select,
+.sell-watch-container textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sell-watch-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.sell-watch-container button {
+  display: inline-block;
+  background: #CBB26A  ;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sell-watch-container button:hover {
+  background: #CBB26A
+  ;
+}
+
+/* FAQ Section */
+.faq {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.faq h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.faq p {
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Video Section */
+.video {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.video h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.video video {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

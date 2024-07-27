@@ -1,0 +1,80 @@
+/* ProductDetail.css */
+
+.product-detail-container {
+  padding: 40px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+.women{
+  font-size: 900%;
+  background-color: #CBB26A
+   
+   }
+ 
+.product-detail-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #CBB26A
+  ;
+  padding-bottom: 10px;
+}
+
+.product-detail-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail-container p {
+  font-size: 1.2em;
+  margin: 15px 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.product-detail-container button {
+  padding: 15px 30px;
+  background-color: #CBB26A
+  ;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.product-detail-container button:hover {
+  background-color: black;
+}
+
+.back-button {
+  margin-top: 30px;
+}
+
+.back-button a {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.back-button a:hover {
+  background-color: #CBB26A
+
+}

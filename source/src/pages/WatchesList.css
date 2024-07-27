@@ -1,0 +1,49 @@
+/* WatchesList.css */
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-card {
+    width: calc(25% - 20px); /* 25% of the container width minus some margin */
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    width: 150px;
+    height: 200px;
+    height: auto;
+  }
+  
+  .product-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-card p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #777;
+  }
+  
+  .product-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
