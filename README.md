@@ -16,7 +16,7 @@ Student1559440 HOANG NGOC THAO VY
 
 ============================
 
-eProject documentation at https://github.com/huongvu03/kitchen_appliances/tree/main/document
+eProject documentation at https://github.com/truongalice9190/alberto_watch/tree/main/document
 
 ============================
 
